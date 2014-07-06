@@ -1,0 +1,41 @@
+name: Votifier-SimpleVote
+version: 1.0
+main: me.senne.SimpleVote.SimpleVote
+author: Jommeke_65
+description: Thise plugin allows your users to get all the links where thy cane vote for the server!
+
+commands:
+    vote:
+        usage: /<command>
+        aliases: [votelink,voteurl]
+        description: View VoteURL links!  
+    website:
+        usage: /<command>
+        aliases: [web]
+        description: View WebsiteURL link!  
+    donate:
+        usage: /<command>
+        description: View DonateURL link!  
+    dynurl:
+        usage: /<command>
+        aliases: [dynmapurl]
+        description: View DynMapURL link!
+    svreload:
+        usage: /<command>
+        description: Reload the plugin config!
+permissions:
+    simplevote.vote:
+        description: Use the Vote command to get the VoteURL.
+        default: op
+    simplevote.web:
+        description: Use the Website command to get the WebsiteURL.
+        default: op
+    simplevote.donate:
+        description: Use the Donate command to get the DonateURL.
+        default: op
+    simplevote.dynurl:
+        description: Use the DynURL/DynMapURL command to get the DynMapURL.
+        default: op
+    simplevote.reload:
+        description: Use the /reload command to reload the plugin config.
+        default: op
