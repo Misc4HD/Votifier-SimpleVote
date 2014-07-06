@@ -1,1 +1,14 @@
-d
+EnableWebURL: false
+Website: "&2 Your Website URL"
+EnableDonateURL: false
+DonateURL: "&2 Your Donate URL"
+EnableDynMapURL: false
+DynMapURL: "&2 Your DynMapURL"
+VoteURL:
+  - "&4 Default thanks for vote"
+  - "&4 Default website"
+  - "&4 Default website"
+  - "&4 Default website"
+  - "&4 Default website"
+  - "&4 Default website"
+  
