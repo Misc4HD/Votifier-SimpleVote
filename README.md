@@ -1,3 +1,3 @@
 # Votifier-SimpleVote
 
-Source of my plugin Votifier-SimpleVote
+Source of my  Bukkit plugin Votifier-SimpleVote.
